@@ -45,10 +45,10 @@ const render = () => {
             <button class="taskList_button taskList__button--done js-done">
             ${task.done ? "&#10003;" : ""}
             </button>
-            <span class=${task.done ? "taskList__span--done" : ""}>
+            <span class=${task.done ? "taskList__item--done" : ""}>
             ${task.content}
             </span>
-            <button class="taskList__button taskList__button--remove js-remove"> 🗑 </button>
+            <button class="taskList__button taskList__button--remove js-remove"> &#128465; </button>
         </li>
         `;
     }
